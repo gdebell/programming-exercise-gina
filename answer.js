@@ -990,3 +990,39 @@ console.log('HI!');
 // }
 // console.log(reverse('racecar'));
 // console.log(reverse('hello'));
+
+
+
+// 1. **Password Generator**: Write a function that takes an integer as an input and returns a random password - with upper and lowercase letters, integers, and characters - the length of the integer.
+// function randomPassword(num) {
+//   var code = '';
+//   var options = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789*&%$#@!';
+//   for (var i =0; i < num; i++) {
+//     code += options.charAt(Math.floor(Math.random()*options.length));
+//   }
+//   return code;
+// }
+// console.log("Your random password of length 5 is " + randomPassword(5));
+// console.log("Your random password of length 10 is " + randomPassword(10));
+
+
+
+// 1. **Time Convert**: Write a function that takes an integer then returns the number in hours and minutes. For example, 63 should return 1:3.
+// var timeConv = function (time) {
+//   var hour = parseInt(time/60);
+//   var minutes = parseInt(time - (hour*60));
+//   return hour + ':' + minutes
+// }
+// console.log('time: ' + timeConv(123));  //2:3
+// console.log('time ' + timeConv(240));   //4:0
+// console.log('time ' + timeConv(93));   //1:33
+
+
+// 1. **Longest Word**: Write a function that takes a string and returns the longest word in the string.
+
+var longWord = function(someString) {
+  return someString;
+}
+
+var answer = longWord('Hello to the world.');
+console.log(answer);

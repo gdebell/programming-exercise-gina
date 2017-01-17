@@ -6,12 +6,9 @@
 
 1. Write two functions. Both take a base and an exponent as arguments and return the value of base^exponent. Use recursion in the first function and a loop in the second. Benchmark the results.
 1. **Factorial**: Write a function that takes a random number as an argument and then returns the factorial of that given number.
-1. **Longest Word**: Write a function that takes a string and returns the longest word in the string.
 1. **Longest Word 2**: Refactor the "Longest Word" function so that it ignores punctuation.
-1. **Time Convert**: Write a function that takes an integer then returns the number in hours and minutes. For example, 63 should return 1:3.
 1. Using JavaScript, create a function that handles errors. The function takes two integers as inputs and returns the result of dividing them. If the denominator is 0, throw an error.
 1. **Spiral**: Write a function called "spiral" that takes an NxM array as input and returns a "spiral" path through the array, starting in the upper-left corner and moving clockwise. For example: [[1,2,3],[8,9,4],[7,6,5]] => [1,2,3,4,5,6,7,8,9]
-1. **Password Generator**: Write a function that takes an integer as an input and returns a random password - with upper and lowercase letters, integers, and characters - the length of the integer.
 1. Using jQuery and CSS, create new .js and .css files (prob30.css and prob30.js, respectively) so that when a user clicks on a button, the background color of the page will change. Use the HTML code in the corresponding folder. You do not have to edit the file.
 1. **Mad Libs**: Using HTML, CSS, and jQuery, create a mad libs game. Use an HTML form to take user input. Display the results however you'd like. Get creative.
 1. Create a simple to-do list using jQuery. Make sure the user can remove the items.
