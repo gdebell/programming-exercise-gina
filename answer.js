@@ -952,3 +952,41 @@ console.log('HI!');
 // }
 // var shortest = findShort("hello my name is gina");
 // console.log(shortest);
+
+// 1. **Time Difference**: Write a function that takes two times in hours and minutes and returns the difference.
+
+
+
+
+// function timeDiff(hour, minutes) {
+//   var toMin = hour * 60;
+//   if (minutes > toMin) {
+//     return minutes - toMin;
+//   } else if (minutes < toMin) {
+//     return toMin - minutes;
+//   } else {
+//     return 0;
+//   }
+// }
+//
+// console.log(timeDiff(1, 60) + ' No time difference!');
+// console.log(timeDiff(1, 50) + ' minutes');
+// console.log(timeDiff(1, 80) + ' minutes');
+
+
+// 1. **Reverse**: Write a function that takes a string as an argument and returns the string in reversed order. Test if the string is the same reversed (Palindrome).
+// function reverse (myString) {
+//   var newArray = [];
+//   var newString = myString.split('');
+//   var newStringNum = myString.split('');
+//   for (var i = 0; i < newStringNum.length; i++) {
+//     newArray.push(newString.pop());
+//   }
+//   var finalString= (newArray.join()).replace(/,/g , "");
+//   if (finalString == myString) {
+//     console.log('You have a palidrome!');
+//   }
+//   return finalString;
+// }
+// console.log(reverse('racecar'));
+// console.log(reverse('hello'));
