@@ -1018,11 +1018,33 @@ console.log('HI!');
 // console.log('time ' + timeConv(93));   //1:33
 
 
+
 // 1. **Longest Word**: Write a function that takes a string and returns the longest word in the string.
-
-var longWord = function(someString) {
-  return someString;
-}
-
-var answer = longWord('Hello to the world.');
-console.log(answer);
+// var removePunc= function(someString) {
+//   var arrayToCheck = [];
+//   var newArray = someString.split(' ')
+//   newArray.forEach(function(word) {
+//     for (var i = 0; i < word.length; i++) {
+//       if (word[i] == '.') {
+//         var noPunc = word.substring(0, word.length-1);
+//         word = noPunc;
+//       }
+//     }
+//     arrayToCheck.push(word);
+//   })
+//   return arrayToCheck
+// }
+//
+// var arraySentence = removePunc('Hello to the worlddddd. This is another loooonnnnnnggggggggg word to test.');
+// var findLongest = function(array) {
+//   var longestWord = array[0];
+//   array.forEach(function(word) {
+//     if (word.length > longestWord.length) {
+//       longestWord = word;
+//     }
+//   })
+//   return longestWord
+// }
+//
+// var longestWord = findLongest(arraySentence);
+// console.log(longestWord);
