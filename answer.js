@@ -1019,6 +1019,8 @@ console.log('HI!');
 
 
 
+
+
 // 1. **Longest Word**: Write a function that takes a string and returns the longest word in the string.
 // var removePunc= function(someString) {
 //   var arrayToCheck = [];
@@ -1048,3 +1050,30 @@ console.log('HI!');
 //
 // var longestWord = findLongest(arraySentence);
 // console.log(longestWord);
+
+
+
+// 1. **Factorial**: Write a function that takes a random number as an argument and then returns the factorial of that given number.
+// var factorial = function (num) {
+//   var fact = 1;
+//   for (var i = num; i > 0; i--) {
+//       fact *= i;
+//   }
+//   return fact;
+// }
+// var ans = factorial(6);
+// console.log(ans);
+
+
+
+//example using a while loop
+// var factorial = function (num) {
+//   var fact = 1;
+//   while (num > 0) {
+//     fact *= num;
+//     num --;
+//   }
+//   return fact;
+// }
+// var ans = factorial(6);
+// console.log(ans);
