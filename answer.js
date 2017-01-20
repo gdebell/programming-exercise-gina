@@ -1053,7 +1053,8 @@ console.log('HI!');
 
 
 
-// 1. **Factorial**: Write a function that takes a random number as an argument and then returns the factorial of that given number.
+// 1. **Factorial**: Write a function that takes a random number as an argument and then returns the factorial of that given number.1. **Longest Word 2**: Refactor the "Longest Word" function so that it ignores punctuation.
+
 // var factorial = function (num) {
 //   var fact = 1;
 //   for (var i = num; i > 0; i--) {
@@ -1063,7 +1064,6 @@ console.log('HI!');
 // }
 // var ans = factorial(6);
 // console.log(ans);
-
 
 
 //example using a while loop
@@ -1077,3 +1077,22 @@ console.log('HI!');
 // }
 // var ans = factorial(6);
 // console.log(ans);
+
+// 1. Write a function that takes a single string as the input then return the number of vowels the string contains. Do not count "y" as a vowel.
+
+function countVowel(inputString) {
+  var wordCount = 0;
+  for (var i = 0; i < inputString.length; i++) {
+    var lowerString = inputString.toLowerCase();
+    if (lowerString.charAt(i) == 'a' || lowerString.charAt(i) == 'e' || lowerString.charAt(i) == 'i' || lowerString.charAt(i) == 'o' || lowerString.charAt(i) == 'u') {
+      wordCount ++
+    }
+  }
+  return wordCount;
+}
+
+var answer = countVowel('Let\'s eat ice cream.');
+console.log(answer);
+
+var answerTwo = countVowel('There are a lot of a\'s in banana.');
+console.log(answerTwo);
